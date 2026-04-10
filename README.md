@@ -1,0 +1,3 @@
+# INFOVIS
+
+Information Visualization project.
