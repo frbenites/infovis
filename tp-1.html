@@ -1,28 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TP 1 - Datos Personales</title>
   <style>
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  object, div {
-    margin: 0;
-    padding: 0;
-  }
-</style>
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --ink: #1a1a1a;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2.25rem;
+      font-weight: 700;
+    }
+    header p {
+      margin: 0;
+      opacity: 0.9;
+      font-size: 1.05rem;
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    section h2 {
+      margin: 0 0 0.25rem;
+      font-size: 1.4rem;
+      color: var(--ink);
+    }
+    section .label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    section p.desc {
+      margin: 0 0 1.25rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .viz-wrap {
+      width: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+    .viz-wrap img,
+    .viz-wrap object,
+    .viz-wrap iframe {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+    }
+    iframe { border: none; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 2rem 1rem 3rem;
+    }
+  </style>
 </head>
 <body>
-<iframe title="2 hs. al día en el celu ¿meta o ilusión?" aria-label="Gráfico de flechas" id="datawrapper-chart-cBL0e" src="https://datawrapper.dwcdn.net/cBL0e/1/" scrolling="no" frameborder="0" style="border: none;" width="1140" height="607" data-external="1"></iframe>
+  <header>
+    <h1>TP 1 — Datos Personales</h1>
+    <p>Visualizaciones sobre mi tiempo de pantalla</p>
+  </header>
 
-<div class="flourish-embed flourish-scatter" data-src="visualisation/28878990"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28878990/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
+  <main>
+    <section>
+      <span class="label">Screenshot 1</span>
+      <h2>Los comienzos</h2>
+      <div class="viz-wrap"><img src="screen_1.png" alt="Screen 1"></div>
+    </section>
 
-<object type="image/svg+xml" data="stream-final-viz.svg" width="100%"></object>
+    <section>
+      <span class="label">Screenshot 2</span>
+      <h2>Progreso</h2>
+      <div class="viz-wrap"><img src="screen_2.png" alt="Screen 2"></div>
+    </section>
 
-<div class='tableauPlaceholder' id='viz1778272101530' style='position: relative'><noscript><a href='#'><img alt='¿Cómo se reparte mi tiempo de pantalla a lo largo de la semana? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;InfovisITBA-TP1&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='InfovisITBA-TP1&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;InfovisITBA-TP1&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1778272101530');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <section>
+      <span class="label">Screenshot 3</span>
+      <h2>Dudas?</h2>
+      <div class="viz-wrap"><img src="screen_3.png" alt="Screen 3"></div>
+    </section>
 
+    <section>
+      <span class="label">Visualización 1</span>
+      <div class="viz-wrap">
+        <iframe title="2 hs. al día en el celu ¿meta o ilusión?" aria-label="Gráfico de flechas" id="datawrapper-chart-cBL0e" src="https://datawrapper.dwcdn.net/cBL0e/1/" scrolling="no" frameborder="0" style="width:100%; height:607px;" data-external="1"></iframe>
+      </div>
+    </section>
+
+    <section>
+      <span class="label">Visualización 2</span>
+      <div class="viz-wrap">
+        <div class="flourish-embed flourish-scatter" data-src="visualisation/28878990"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/28878990/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
+      </div>
+    </section>
+
+    <section>
+      <span class="label">Visualización 3</span>
+      <h2>¿Cómo fue mi mix de pantallas en el día a día de las últimas semanas?</h2>
+      <div class="viz-wrap">
+        <object type="image/svg+xml" data="stream-final-viz.svg" width="100%"></object>
+      </div>
+    </section>
+
+    <section>
+      <span class="label">Visualización 4</span>
+      <div class="viz-wrap">
+        <div class='tableauPlaceholder' id='viz1778332092123' style='position: relative'><noscript><a href='#'><img alt='¿Cómo se distribuye mi tiempo de pantalla según el día de la semana? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;InfovisITBA-TP1&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='InfovisITBA-TP1&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;InfovisITBA-TP1&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>
+        <script type='text/javascript'>
+          var divElement = document.getElementById('viz1778332092123');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width='100%';
+          vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+    </section>
+  </main>
+
+  <footer>TP 1 — Infovis ITBA</footer>
 </body>
 </html>
