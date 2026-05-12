@@ -1,0 +1,653 @@
+{
+  "@odata.context": "https://itsda-dataexp-prd.search.windows.net/indexes('data360-metadata-vector')/$metadata#docs(*)",
+  "@odata.count": 10211,
+  "@search.facets": {
+    "series_description/database_id": [
+      {
+        "value": "WB_WDI",
+        "count": 1533
+      },
+      {
+        "value": "IMF_BOP",
+        "count": 1146
+      },
+      {
+        "value": "WB_EDSTATS",
+        "count": 1072
+      },
+      {
+        "value": "IMF_FSI",
+        "count": 593
+      },
+      {
+        "value": "WB_ES",
+        "count": 582
+      },
+      {
+        "value": "IMF_IFS",
+        "count": 495
+      },
+      {
+        "value": "WB_GS",
+        "count": 363
+      },
+      {
+        "value": "WB_FINDEX",
+        "count": 280
+      },
+      {
+        "value": "BS_SGI",
+        "count": 193
+      },
+      {
+        "value": "WB_HNP",
+        "count": 192
+      },
+      {
+        "value": "WEF_GCI",
+        "count": 169
+      },
+      {
+        "value": "WEF_GCIHH",
+        "count": 163
+      },
+      {
+        "value": "WEF_TTDI",
+        "count": 140
+      },
+      {
+        "value": "WB_HCP",
+        "count": 132
+      },
+      {
+        "value": "WB_SSGD",
+        "count": 128
+      },
+      {
+        "value": "IMF_IRFCL",
+        "count": 120
+      },
+      {
+        "value": "FAO_AS",
+        "count": 117
+      },
+      {
+        "value": "GI_AII",
+        "count": 114
+      },
+      {
+        "value": "WB_MPO",
+        "count": 103
+      },
+      {
+        "value": "WB_IDS",
+        "count": 102
+      },
+      {
+        "value": "WB_CLEAR",
+        "count": 93
+      },
+      {
+        "value": "IMF_GFSR",
+        "count": 84
+      },
+      {
+        "value": "VDEM_CORE",
+        "count": 84
+      },
+      {
+        "value": "IMF_FAS",
+        "count": 82
+      },
+      {
+        "value": "IMF_GFSCOFOG",
+        "count": 80
+      },
+      {
+        "value": "BS_BTI",
+        "count": 76
+      },
+      {
+        "value": "OWID_CB",
+        "count": 76
+      },
+      {
+        "value": "WB_ESG",
+        "count": 71
+      },
+      {
+        "value": "WB_SPI",
+        "count": 71
+      },
+      {
+        "value": "IMF_GFSMAB",
+        "count": 70
+      },
+      {
+        "value": "WB_FSI",
+        "count": 63
+      },
+      {
+        "value": "WB_GTMI",
+        "count": 58
+      },
+      {
+        "value": "WB_CSC",
+        "count": 56
+      },
+      {
+        "value": "OECD_IDD",
+        "count": 53
+      },
+      {
+        "value": "WJP_ROL",
+        "count": 53
+      },
+      {
+        "value": "IMF_CPIS",
+        "count": 50
+      },
+      {
+        "value": "IMF_GFSE",
+        "count": 48
+      },
+      {
+        "value": "IMF_WEO",
+        "count": 44
+      },
+      {
+        "value": "FH_FIW",
+        "count": 42
+      },
+      {
+        "value": "WB_CCKP",
+        "count": 40
+      },
+      {
+        "value": "ITU_DH",
+        "count": 39
+      },
+      {
+        "value": "IMF_BOPAGG",
+        "count": 38
+      },
+      {
+        "value": "WB_WITS",
+        "count": 37
+      },
+      {
+        "value": "WB_WWBI",
+        "count": 37
+      },
+      {
+        "value": "IMF_FISCALDECENTRALIZATION",
+        "count": 36
+      },
+      {
+        "value": "UNDRR_SFM",
+        "count": 36
+      },
+      {
+        "value": "OECDWBG_PMR",
+        "count": 33
+      },
+      {
+        "value": "OECD_PMR",
+        "count": 29
+      },
+      {
+        "value": "WB_EWSA",
+        "count": 29
+      },
+      {
+        "value": "WB_BPS",
+        "count": 28
+      },
+      {
+        "value": "WB_RISE",
+        "count": 27
+      },
+      {
+        "value": "IMF_GFSSSUC",
+        "count": 26
+      },
+      {
+        "value": "ITU_GCI",
+        "count": 26
+      },
+      {
+        "value": "OECD_TIVA",
+        "count": 24
+      },
+      {
+        "value": "WB_CCDFS",
+        "count": 23
+      },
+      {
+        "value": "IMF_FFS",
+        "count": 21
+      },
+      {
+        "value": "IMF_FSIRE",
+        "count": 21
+      },
+      {
+        "value": "WB_CPIA",
+        "count": 21
+      },
+      {
+        "value": "WB_LPI_20",
+        "count": 21
+      },
+      {
+        "value": "IMF_CDIS",
+        "count": 20
+      },
+      {
+        "value": "UND_NDGAIN",
+        "count": 20
+      },
+      {
+        "value": "UNSD_EI",
+        "count": 20
+      },
+      {
+        "value": "WB_HCIP",
+        "count": 17
+      },
+      {
+        "value": "UNICEF_DW",
+        "count": 16
+      },
+      {
+        "value": "GEM_APS",
+        "count": 15
+      },
+      {
+        "value": "IMF_GFSIBS",
+        "count": 15
+      },
+      {
+        "value": "WB_ASPIRE",
+        "count": 15
+      },
+      {
+        "value": "WB_BOOST",
+        "count": 15
+      },
+      {
+        "value": "IMF_WORLD",
+        "count": 14
+      },
+      {
+        "value": "POLITY5_PRC",
+        "count": 14
+      },
+      {
+        "value": "UNCTAD_DE",
+        "count": 14
+      },
+      {
+        "value": "GEM_NES",
+        "count": 12
+      },
+      {
+        "value": "IFC_GEM",
+        "count": 12
+      },
+      {
+        "value": "RWB_PFI",
+        "count": 12
+      },
+      {
+        "value": "FAO_FS",
+        "count": 11
+      },
+      {
+        "value": "FH_NIT",
+        "count": 11
+      },
+      {
+        "value": "OECD_BROADBAND",
+        "count": 11
+      },
+      {
+        "value": "WB_ID4D",
+        "count": 11
+      },
+      {
+        "value": "WB_INFECDB",
+        "count": 11
+      },
+      {
+        "value": "WB_THINK_HAZARD",
+        "count": 11
+      },
+      {
+        "value": "WB_WAW",
+        "count": 11
+      },
+      {
+        "value": "WB_WBL",
+        "count": 11
+      },
+      {
+        "value": "ITU_ICT",
+        "count": 10
+      },
+      {
+        "value": "JRC_EDGAR",
+        "count": 10
+      },
+      {
+        "value": "FAO_CAHD",
+        "count": 9
+      },
+      {
+        "value": "UNCTAD_MT",
+        "count": 9
+      },
+      {
+        "value": "UN_SDG",
+        "count": 9
+      },
+      {
+        "value": "WB_ASPD",
+        "count": 9
+      },
+      {
+        "value": "WB_HCI",
+        "count": 9
+      },
+      {
+        "value": "WB_LPGD",
+        "count": 9
+      },
+      {
+        "value": "WB_PPI",
+        "count": 9
+      },
+      {
+        "value": "IMF_FM",
+        "count": 8
+      },
+      {
+        "value": "WB_CWON",
+        "count": 8
+      },
+      {
+        "value": "WB_SE4ALL",
+        "count": 8
+      },
+      {
+        "value": "WB_LPI",
+        "count": 7
+      },
+      {
+        "value": "WB_MPM",
+        "count": 7
+      },
+      {
+        "value": "IBP_OBS",
+        "count": 6
+      },
+      {
+        "value": "IMF_PCTOT",
+        "count": 6
+      },
+      {
+        "value": "OECD_STRI",
+        "count": 6
+      },
+      {
+        "value": "WB_EQOSOGI",
+        "count": 6
+      },
+      {
+        "value": "WB_GIRG",
+        "count": 6
+      },
+      {
+        "value": "WB_PIP",
+        "count": 6
+      },
+      {
+        "value": "WB_WGI",
+        "count": 6
+      },
+      {
+        "value": "WIPO_ICT",
+        "count": 6
+      },
+      {
+        "value": "EIA_EIAOD",
+        "count": 5
+      },
+      {
+        "value": "ILO_EMP",
+        "count": 5
+      },
+      {
+        "value": "IMF_AI",
+        "count": 5
+      },
+      {
+        "value": "IMF_ET",
+        "count": 5
+      },
+      {
+        "value": "WB_AGCI",
+        "count": 5
+      },
+      {
+        "value": "WHO_GHO",
+        "count": 5
+      },
+      {
+        "value": "DRMKC_INFORM",
+        "count": 4
+      },
+      {
+        "value": "FAO_MK",
+        "count": 4
+      },
+      {
+        "value": "FAO_RP",
+        "count": 4
+      },
+      {
+        "value": "IMF_CDIR",
+        "count": 4
+      },
+      {
+        "value": "IMF_DOT",
+        "count": 4
+      },
+      {
+        "value": "IMF_GFSFALCS",
+        "count": 4
+      },
+      {
+        "value": "IUU_FRI",
+        "count": 4
+      },
+      {
+        "value": "UN_EGDI",
+        "count": 4
+      },
+      {
+        "value": "WB_BID",
+        "count": 4
+      },
+      {
+        "value": "WB_KNOMAD",
+        "count": 4
+      },
+      {
+        "value": "WI_GRT",
+        "count": 4
+      },
+      {
+        "value": "FAO_CP",
+        "count": 3
+      },
+      {
+        "value": "IDB_INFRALATAM",
+        "count": 3
+      },
+      {
+        "value": "IFPRI_ASTI",
+        "count": 3
+      },
+      {
+        "value": "UNEP_OPH",
+        "count": 3
+      },
+      {
+        "value": "WB_BREADY",
+        "count": 3
+      },
+      {
+        "value": "WB_GBIOD",
+        "count": 3
+      },
+      {
+        "value": "WB_SHP",
+        "count": 3
+      },
+      {
+        "value": "WB_UHC",
+        "count": 3
+      },
+      {
+        "value": "FAO_SDGB",
+        "count": 2
+      },
+      {
+        "value": "IMF_FPR",
+        "count": 2
+      },
+      {
+        "value": "IMF_GENDER_EQUALITY",
+        "count": 2
+      },
+      {
+        "value": "IPC_IPC",
+        "count": 2
+      },
+      {
+        "value": "OOKLA_ST",
+        "count": 2
+      },
+      {
+        "value": "PCH_IXP",
+        "count": 2
+      },
+      {
+        "value": "UNESCO_UIS",
+        "count": 2
+      },
+      {
+        "value": "WB_GWA",
+        "count": 2
+      },
+      {
+        "value": "WB_HLO",
+        "count": 2
+      },
+      {
+        "value": "WRI_GFW",
+        "count": 2
+      },
+      {
+        "value": "EIU_DI",
+        "count": 1
+      },
+      {
+        "value": "EPC_AI",
+        "count": 1
+      },
+      {
+        "value": "FAO_EMS",
+        "count": 1
+      },
+      {
+        "value": "FAO_EMSTOT",
+        "count": 1
+      },
+      {
+        "value": "FAO_FBS",
+        "count": 1
+      },
+      {
+        "value": "FAO_FDI",
+        "count": 1
+      },
+      {
+        "value": "FAO_GFRA",
+        "count": 1
+      },
+      {
+        "value": "FAO_IC",
+        "count": 1
+      },
+      {
+        "value": "FSIN_GRFC",
+        "count": 1
+      },
+      {
+        "value": "GDIP_DVC",
+        "count": 1
+      },
+      {
+        "value": "IFC_GB",
+        "count": 1
+      },
+      {
+        "value": "IMF_GHW",
+        "count": 1
+      },
+      {
+        "value": "OECD_AI",
+        "count": 1
+      },
+      {
+        "value": "OECD_DSTRI",
+        "count": 1
+      },
+      {
+        "value": "OHI_OHI",
+        "count": 1
+      },
+      {
+        "value": "PEERING_DB",
+        "count": 1
+      },
+      {
+        "value": "T500_TL",
+        "count": 1
+      },
+      {
+        "value": "UNCTAD_LSC",
+        "count": 1
+      },
+      {
+        "value": "WB_GEP",
+        "count": 1
+      },
+      {
+        "value": "WB_SOLAR_ATLAS",
+        "count": 1
+      },
+      {
+        "value": "WRI_AQDT",
+        "count": 1
+      },
+      {
+        "value": "WRI_CLIMATEWATCH",
+        "count": 1
+      }
+    ]
+  },
+  "value": []
+}
