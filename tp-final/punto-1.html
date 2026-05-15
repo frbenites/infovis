@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TP Final — Punto 1: Exploración API Data360</title>
+  <title>TP Final — Exploración API Data360 y Visualizaciones</title>
   <style>
     :root {
       --bg: #fafafa;
@@ -128,7 +128,13 @@
       font-size: 0.85rem;
       padding: 2rem 1rem 3rem;
     }
+      .chart-wrap {
+      overflow-x: auto;
+    }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
   <header>
@@ -281,8 +287,36 @@
       <p><strong>Cobertura:</strong> país-año es la granularidad típica, con cobertura mundial (todos los ISO-3) y series que arrancan típicamente entre 1960 y 2000 según el indicador.</p>
     </section>
 
+    <section>
+      <span class="label">Visualización</span>
+      <h2>Trayectoria: Inversión Educativa vs. Protección Social</h2>
+      <p>Cobertura de planes sociales en el quintil más pobre vs. gasto público en educación como % del PIB. Argentina (2006–2022). Cada punto es un año; el color identifica la gestión presidencial.</p>
+      <div class="chart-wrap"><div id="grafico-1"></div></div>
+    </section>
+
+    <section>
+      <span class="label">Visualización</span>
+      <h2>Relación entre inversión educativa y desigualdad</h2>
+      <p>Evolución de Argentina, Brasil, Chile y Uruguay (2008–2022). Usá el slider para mover el año seleccionado; la trayectoria tenue muestra el recorrido histórico de cada país.</p>
+      <div class="chart-wrap"><div id="grafico-2"></div></div>
+    </section>
+
+    <section>
+      <span class="label">Visualización</span>
+      <h2>En una década, Argentina pasó de crecer a achicarse</h2>
+      <p>Tasa de fertilidad (hijos por mujer) para Argentina y cinco vecinos del Cono Sur (2014–2024). La línea punteada marca el nivel de reemplazo generacional (2,1).</p>
+      <div class="chart-wrap"><div id="grafico-3"></div></div>
+    </section>
+
   </main>
 
-  <footer>TP Final — Infovis ITBA · Punto 1</footer>
+  <script>
+    const opts = { actions: false, renderer: "svg" };
+    vegaEmbed("#grafico-1", "grafico_1.json", opts).catch(console.error);
+    vegaEmbed("#grafico-2", "grafico_2.json", opts).catch(console.error);
+    vegaEmbed("#grafico-3", "grafico_3.json", opts).catch(console.error);
+  </script>
+
+  <footer>TP Final — Infovis ITBA</footer>
 </body>
 </html>
